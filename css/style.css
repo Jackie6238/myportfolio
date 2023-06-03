@@ -1,0 +1,59 @@
+.gradient-background {
+    background: linear-gradient(300deg, #F9FBE7, #F0EDD4, #ECCDB4, #FEA1A1);
+    background-image: linear-gradient(to right, );
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+h2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+h3 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+#hero, #fun, #contact {
+    height: 100vh;
+}
+
+.fun-content-item {
+    display: flex;
+    align-items: center;
+}
+
+.projects-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hr-icon {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+ } 
+ 
