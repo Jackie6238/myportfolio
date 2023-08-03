@@ -36,7 +36,8 @@ section {
 
 #hero,
 #fun,
-#contact {
+#contact,
+#skills {
   height: 100vh;
 }
 
@@ -79,4 +80,71 @@ section {
 .project-gif {
   box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
+}
+
+.skill-box {
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.skill-box-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill-box h3 {
+  text-align: center;
+}
+
+.language-box {
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.html5 {
+  background-color: #cc6666;
+}
+
+.js {
+  background-color: #ccb266;
+}
+
+.css3 {
+  background-color: #6699aa;
+}
+
+.nodejs {
+  background-color: #89cc89;
+}
+
+.zsh {
+  background-color: #bfbfbf;
+}
+
+.express {
+  background-color: #99c2c2;
+}
+
+.mongodb {
+  background-color: #99c2c2;
+}
+
+.vscode {
+  background-color: #77bffa;
+}
+
+.git {
+  background-color: #e57373;
+}
+
+.github {
+  background-color: #8c8c8c;
 }
