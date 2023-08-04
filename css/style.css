@@ -83,10 +83,11 @@ section {
 }
 
 .skill-box {
-  border-radius: 10px;
+  border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   padding: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  background: linear-gradient(to right, #ffb6b9, #fae3d9, #bbded6, #61c0bf);
 }
 
 .skill-box-content {
@@ -134,7 +135,7 @@ section {
 }
 
 .mongodb {
-  background-color: #99c2c2;
+  background-color: #8971d0;
 }
 
 .vscode {
@@ -147,4 +148,16 @@ section {
 
 .github {
   background-color: #8c8c8c;
+}
+
+.jquery {
+  background-color: #385170;
+}
+
+.c {
+  background-color: #9fd3c7;
+}
+
+.racket {
+  background-color: #fdc57b;
 }
